@@ -8,3 +8,8 @@ selenium
 chromedriver_binary
 beautifulsoup4
 requests
+beautifulsoup4
+flask
+flask_sqlalchemy
+flask_wtf
+selenium
