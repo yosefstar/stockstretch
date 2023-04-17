@@ -68,32 +68,36 @@ def count_links(urls):
 
 @app.route('/start_process', methods=['POST'])
 def start_process():
-urls = session.get('urls')
-if urls:
-# リンク毎にページを読み込み、購入手続きへの有無を判定する
-results = []
-for url in urls:
-try:
-driver.get(url)
-time.sleep(1)
-html = driver.page_source
-soup = BeautifulSoup(html, 'html.parser')
-if soup.select_one('body:contains("購入手続きへ")'):
-results.append("○")
-else:
-results.append("×")
-except Exception as e:
-# ページの読み込みが失敗した場合、エラーをログに出力する
-app.logger.error('Error occurred while checking link: ' + url)
-app.logger.error(str(e))
-results.append("エラー")
-    # 結果をCSVファイルに保存する
-    pairs = list(zip(urls, results))
-    session['pairs'] = pairs
+    urls = session.get('urls')
+    if urls:
+        # リンク毎にページを読み込み、購入手続きへの有無を判定する
+        results = []
+        for url in urls:
+            try:
+                driver.get(url)
+                time.sleep(1)
+                html = driver.page_source
+                soup = BeautifulSoup(html, 'html.parser')
+                if soup.select_one('body:contains("購入手続きへ")'):
+                    results.append("○")
+                else:
+                    results.append("×")
+            except Exception as e:
+                # ページの読み込みが失敗した場合、エラーをログに出力する
+                app.logger.error('Error occurred while checking link: ' + url)
+                app.logger.error(str(e))
+                results.append("エラー")
+        # 結果をCSVファイルに保存する
+        pairs = list(zip(urls, results))
+        session['pairs'] = pairs
 
-    # ビデオのファイル名をsessionに保存する
-    session['video_file'] = random.choice(['video1.mp4', 'video2.mp4', 'video3.mp4'])
-    return render_template('start_process.html', pairs=pairs)
+        # ビデオのファイル名をsessionに保存する
+        session['video_file'] = random.choice(['video1.mp4', 'video2.mp4', 'video3.mp4'])
+        return render_template('start_process.html', pairs=pairs)
 
-else:
-    return 'CSVファイルがアップロードされていません。'
+    else:
+        return 'CSVファイルがアップロードされていません。'
+
+
+
+
