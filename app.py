@@ -9,6 +9,8 @@ import csv
 import io
 import time
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 import chromedriver_binary
 from bs4 import BeautifulSoup
@@ -39,7 +41,8 @@ app.secret_key = secrets.token_hex(16)
 # WebDriverを初期化する
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
-driver = webdriver.Chrome(options=options)
+driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+driver.get('https://google.com')
 
 # Heroku環境で動作させるための設定
 if os.environ.get("GOOGLE_CHROME_BIN"):
@@ -47,7 +50,7 @@ if os.environ.get("GOOGLE_CHROME_BIN"):
     driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=chrome_options)
 else:
     driver = webdriver.Chrome(options=chrome_options)
-    
+
 app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
