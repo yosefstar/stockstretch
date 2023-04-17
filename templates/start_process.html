@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>アップロード結果</title>
+</head>
+<body>
+    {% include 'header.html' %}
+    <div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>リンク</th>
+                <th>判定結果</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for url, result in pairs %}
+                <tr>
+                    <td><a href="{{ url }}" target="_blank">{{ url }}</a></td>
+                    <td>{{ result }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <form method="post" action="{{ url_for('csv_download') }}">
+        <button type="submit">CSVでダウンロード</button>
+    </form>
+</div>
+</body>
+</html>

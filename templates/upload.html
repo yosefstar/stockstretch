@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ファイルアップロード</title>
+</head>
+<body>
+    <h1>ファイルアップロード</h1>
+    <form method="post" action="{{ url_for('upload_bp.upload') }}" enctype="multipart/form-data">
+        <input type="file" name="file1"><br>
+        <button type="submit">リンクをチェックする</button>
+    </form>
+    <form method="post" action="{{ url_for('upload_hyper') }}">
+        <button type="submit">CSVでダウンロード</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>loading time</title>
+    <script>
+      function changeVideo() {
+        var videos = ['video1.mp4', 'video2.mp4', 'video3.mp4'];
+        var videoElement = document.getElementById('videoPlayer');
+        var randomIndex = Math.floor(Math.random() * videos.length);
+        var newVideo = "{{ url_for('static', filename='') }}" + videos[randomIndex];
+        videoElement.src = newVideo;
+        videoElement.load();
+        videoElement.play();
+      }
+    </script>
+  </head>
+  <body>
+    {% include 'header.html' %}
+
+
+
+    {% if link_count is defined %}
+    <div class="header-wrapper">
+      <div class="description-wrapper">
+      <p class="description">在庫判定に {{ link_count * 3 }}秒くらいかかります。よろしければ、スタートボタンを押してください。
+        <form class="start" method="POST" action="/start_process">
+        <input type="submit" value="スタート">
+      </form></p>
+      {% set video_file = ['video1.mp4', 'video2.mp4', 'video3.mp4']|random_choice %}
+    </div>
+    </div>
+      <div class="video-wrapper">
+      <video class="my-video" id="videoPlayer" width="640" height="360" controls>
+        <source src="{{ url_for('static', filename=video_file) }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <button onclick="changeVideo()">次のビデオを再生</button>
+      <p class="lets-stretch">スタートボタンを押したら、待ってる時間で一緒にストレッチをしましょう！</p>
+    </div>
+       {% else %}
+      <p>CSVファイルがアップロードされていません。</p>
+    {% endif %}
+  </body>
+</html>

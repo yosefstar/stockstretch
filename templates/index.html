@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StockStretch</title>
+</head>
+<body>
+    {% include 'header.html' %}
+
+
+
+    <div style="margin-top: 50px;">
+      <form method="POST" action="/" enctype="multipart/form-data" class="upload-form">
+        <div class="custom-file-upload">
+            <label for="file1">csvアップロード</label>
+            <input type="file" id="file1" name="file1" accept=".csv" onchange="this.form.submit();">
+            <input type="submit" value="アップロード"  style="display:none">
+        </div>
+        <div class="text-container">
+            <div class="column">
+                <p>A欄にメルカリのリンクを入れたcsvを<br>アップロードしてください</p>
+        </div>
+          </div>
+      </form>
+      
+    </div>
+    <div class="center">
+        <div><strong>メルカリのリンクが<br>購入可能か自動で確認！<br>待ってる時間で<br>ストレッチしましょう！</strong></div>
+      </div>
+      <script>
+        function resizeText() {
+          const center = document.getElementById('center');
+          const height = window.innerHeight;
+          const fontSize = height / 10; // ページの高さの10分の1に設定
+          center.style.fontSize = fontSize + 'px';
+        }
+      
+        window.addEventListener('resize', resizeText);
+        resizeText();
+      </script>
+</body>
+</html>
