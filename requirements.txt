@@ -1,0 +1,10 @@
+Jinja2
+Flask
+Flask_SQLAlchemy
+Flask_WTF
+WTForms
+Werkzeug
+selenium
+chromedriver_binary
+beautifulsoup4
+requests
