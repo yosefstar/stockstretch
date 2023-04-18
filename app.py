@@ -28,6 +28,7 @@ import asyncio
 
 
 app = Flask(__name__, static_folder='static')
+app.secret_key = 'yousei1996'
 
 # デフォルトのCSVファイルの保存場所を定義する
 app.config['UPLOAD_FOLDER'] = 'uploads/'
