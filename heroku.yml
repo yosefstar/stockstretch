@@ -1,0 +1,10 @@
+build:
+  languages:
+    - python
+  addons:
+    - google-chrome-stable
+  config:
+    CHROMEDRIVER_PATH: "/app/.chromedriver/bin/chromedriver"
+
+run:
+  web: gunicorn app:app

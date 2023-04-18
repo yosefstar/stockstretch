@@ -41,15 +41,7 @@ app.secret_key = secrets.token_hex(16)
 # WebDriverを初期化する
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
-driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
-driver.get('https://google.com')
-
-# Heroku環境で動作させるための設定
-if os.environ.get("GOOGLE_CHROME_BIN"):
-    chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-    driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=chrome_options)
-else:
-    driver = webdriver.Chrome(options=chrome_options)
+driver = webdriver.Chrome(options=options)
 
 app = Flask(__name__)
 
