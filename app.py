@@ -119,7 +119,10 @@ def csv_download():
     response.headers['Content-type'] = 'text/csv'
     return response
 
-app.jinja_env.filters['random_choice'] = random.choice
+def random_choice(lst):
+    return random.choice(lst)
+
+app.jinja_env.filters['random_choice'] = random_choice
 video_files = ["video1.mp4", "video2.mp4", "video3.mp4"]
 random_video = random.choice(video_files)
 
