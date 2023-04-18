@@ -45,6 +45,13 @@ driver = webdriver.Chrome(options=options)
 
 app = Flask(__name__)
 
+options = webdriver.ChromeOptions()
+options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")  # 追加: 環境変数からChromeのバイナリの場所を取得
+options.add_argument("--headless")
+options.add_argument("--disable-dev-shm-usage")  # 追加: 共有メモリを無効にする
+options.add_argument("--no-sandbox")  # 追加: サンドボックスモードを無効にする
+driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=options)  # 追加: 環境変数からChromeDriverのパスを取得
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
