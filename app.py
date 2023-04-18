@@ -129,5 +129,5 @@ random_video = random.choice(video_files)
 
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
-    app.run(debug=True, port=8000, host='localhost')
+    app.run()
 
