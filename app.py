@@ -80,7 +80,7 @@ def start_process():
         results = []
         for url in urls:
             driver.get(url)
-            time.sleep(1)
+            time.sleep(3)
             html = driver.page_source
             soup = BeautifulSoup(html, 'html.parser')
             if soup.select_one('body:contains("購入手続きへ")'):
