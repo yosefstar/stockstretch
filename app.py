@@ -26,7 +26,7 @@ import requests
 import random
 import asyncio
 import logging
-
+logging.basicConfig(filename='app.log', level=logging.INFO)
 
 app = Flask(__name__, static_folder='static')
 app.secret_key = 'yousei1996'
@@ -48,7 +48,9 @@ options.add_argument("--headless")
 options.add_argument("--disable-dev-shm-usage")  # 追加: 共有メモリを無効にする
 options.add_argument("--no-sandbox")  # 追加: サンドボックスモードを無効にする
 
-driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=options)  # 追加: 環境変数からChromeDriverのパスを取得
+default_chromedriver_path = "/path/to/chromedriver"
+chromedriver_path = os.environ.get("CHROMEDRIVER_PATH", default_chromedriver_path)
+driver = webdriver.Chrome(executable_path=chromedriver_path, options=options) # 追加: 環境変数からChromeDriverのパスを取得
 
 # タイムアウトを設定する
 driver.implicitly_wait(10)
@@ -69,9 +71,10 @@ def index():
 def count_links(urls):
     link_count = 0
     for url in urls:
-        if 'mercari.com' in url:
+        if any(site in url for site in ['mercari.com', 'auctions.yahoo.co.jp', 'fril.jp', 'paypayfleamarket.yahoo.co.jp', 'rakuten.co.jp']):
             link_count += 1
     return link_count
+    
 
 @app.route('/start_process', methods=['POST'])
 def start_process():
@@ -81,13 +84,34 @@ def start_process():
         results = []
         for url in urls:
             driver.get(url)
-            time.sleep(3)
+            time.sleep(1)
             html = driver.page_source
             soup = BeautifulSoup(html, 'html.parser')
-            if soup.select_one('body:contains("購入手続きへ")'):
-                results.append("○")
-            else:
-                results.append("×")
+            if 'mercari' in url:
+                if soup.select_one('body:contains("購入手続きへ")'):
+                    results.append("○")
+                else:
+                    results.append("×")
+            elif 'auctions.yahoo' in url:
+                if soup.select_one('a.Button--buynow') or soup.select_one('a.Button--bid') or soup.select_one('span.Button--bid input[type="submit"][value="購入手続きへ"]'):
+                    results.append("○")
+                else:
+                    results.append("×")
+            elif 'fril' in url:
+                if soup.select_one('div.row a[href*="ref_action=btn_buy"]:contains("購入に進む")'):
+                    results.append("○")
+                else:
+                    results.append("×")
+            elif 'paypay' in url:
+                if '購入手続きへ' in soup.text:
+                    results.append("○")
+                else:
+                    results.append("×")
+            elif 'rakuten' in url:
+                if 'ご購入手続きへ' in soup.text:
+                    results.append("○")
+                else:
+                    results.append("×")
 
         # 結果をCSVファイルに保存する
         pairs = list(zip(urls, results))
@@ -96,9 +120,9 @@ def start_process():
         # ビデオのファイル名をsessionに保存する
         session['video_file'] = random.choice(['video1.mp4', 'video2.mp4', 'video3.mp4'])
         return render_template('start_process.html', pairs=pairs)
-
     else:
         return 'CSVファイルがアップロードされていません。'
+
 
 
 @app.route('/csv_download', methods=['POST'])
@@ -130,6 +154,5 @@ random_video = random.choice(video_files)
 
 
 if __name__ == "__main__":
-    app.secret_key = os.urandom(12)
-    app.run()
+    app.run(host='0.0.0.0', port=5001)
 

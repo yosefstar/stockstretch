@@ -22,12 +22,35 @@
     {% if link_count is defined %}
     <div class="header-wrapper">
       <div class="description-wrapper">
-      <p class="description">在庫判定に {{ link_count * 3 }}秒くらいかかります。よろしければ、スタートボタンを押してください。
-        <form class="start" method="POST" action="/start_process">
-        <input type="submit" value="スタート">
-      </form></p>
-      {% set video_file = ['video1.mp4', 'video2.mp4', 'video3.mp4']|random_choice %}
-    </div>
+        <p class="description" data-link-count="{{ link_count }}">在庫判定に <span id="time">{{ link_count* 5 }}</span>秒くらいかかります。</p>
+        <p class="start-message">よろしければ、スタートボタンを押してください。</p>
+        <form class="start" method="POST" action="/start_process" onsubmit="startButtonClicked()">
+          <input type="submit" value="スタート" style="font-weight: bold;">
+      </form>
+      
+      <script>
+        function startButtonClicked() {
+          var startMessage = document.querySelector(".start-message");
+          startMessage.textContent = ""; // start-messageクラスの内容を空にする
+
+          var linkCount = document.querySelector(".description").getAttribute("data-link-count");
+          var count = linkCount * 5;
+          var countdownTimer = setInterval(function() {
+            var startButton = document.querySelector(".start input[type=submit]");
+            startButton.value = "在庫確認中... ";
+            count--;
+            if (count === -1) {
+              clearInterval(countdownTimer);
+              startButton.value = "完了しました";
+              startButton.disabled = true;
+            }
+            document.querySelector("#time").textContent = count;
+          }, 1000);
+        }
+        </script>
+
+        {% set video_file = ['video1.mp4', 'video2.mp4', 'video3.mp4']|random_choice %}
+      </div>
     </div>
       <div class="video-wrapper">
       <video class="my-video" id="videoPlayer" width="640" height="360" controls>

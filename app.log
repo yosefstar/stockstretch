@@ -1,0 +1,1327 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:16] "[32mGET /static//style.css HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:16] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:16] "GET /static/icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:24] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:24] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:24] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:24] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:24] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:34] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:35:40] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:42:18] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:42:18] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:45:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:45:01] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:45:01] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:45:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:45:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:45:02] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:45:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:45:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:45:02] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:45:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:45:21] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:45:21] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:46:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:46:19] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:46:19] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:46:40] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:46:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:46:40] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:46:40] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:46:40] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:46:40] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:46:40] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:46:51] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:46:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 22:46:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:25] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:25] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:26] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:26] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:26] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:26] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:31] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:31] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:31] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:31] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:31] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:31] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:40] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:07:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:30] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:30] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:30] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:30] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:35] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:35] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:35] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:35] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:35] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:44] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:51] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:51] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:52] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:55] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:55] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:55] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:55] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:56] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:09:56] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:10:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:10:05] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:10:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:11:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:11:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:11:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:11:22] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:11:26] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:11:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:11:26] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:11:26] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:11:26] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:11:26] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:11:26] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:11:36] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:11:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:45] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:46] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:49] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:49] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:49] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:49] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:49] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:49] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:58] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:14:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:15:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:47] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:47] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:47] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:51] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:51] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:51] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:51] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:51] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:51] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:59] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:17:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:07] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:07] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:07] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:11] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:11] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:11] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:11] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:11] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:11] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:20] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:21:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:22:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:22:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:22:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:22:38] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:22:43] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:22:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:22:43] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:22:43] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:22:43] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:22:43] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:22:43] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:22:51] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:22:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:23:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:23:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:23:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:23:27] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:23:30] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:23:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:23:30] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:23:30] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:23:30] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:23:30] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:23:30] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:23:39] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:23:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:24:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:24:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:24:54] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:08] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:08] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:08] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:14] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:14] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:14] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:14] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:14] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:14] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:24] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:25:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:10] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:10] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:10] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:13] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:13] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:13] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:13] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:13] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:13] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+ERROR:app:Exception on /start_process [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/miyako/Desktop/testpy/app.py", line 83, in start_process
+    driver.get(url)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 430, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 418, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: headless chrome=112.0.5615.121)
+Stacktrace:
+0   chromedriver                        0x0000000107a89ae8 chromedriver + 4958952
+1   chromedriver                        0x0000000107a817b3 chromedriver + 4925363
+2   chromedriver                        0x00000001076431d6 chromedriver + 475606
+3   chromedriver                        0x000000010762a324 chromedriver + 373540
+4   chromedriver                        0x000000010762a093 chromedriver + 372883
+5   chromedriver                        0x0000000107644d62 chromedriver + 482658
+6   chromedriver                        0x00000001076c797e chromedriver + 1018238
+7   chromedriver                        0x00000001076ac9e3 chromedriver + 907747
+8   chromedriver                        0x0000000107676aef chromedriver + 686831
+9   chromedriver                        0x000000010767800e chromedriver + 692238
+10  chromedriver                        0x0000000107a459ad chromedriver + 4680109
+11  chromedriver                        0x0000000107a4ac12 chromedriver + 4701202
+12  chromedriver                        0x0000000107a5179f chromedriver + 4728735
+13  chromedriver                        0x0000000107a4bb7a chromedriver + 4705146
+14  chromedriver                        0x0000000107a1e27e chromedriver + 4518526
+15  chromedriver                        0x0000000107a6b908 chromedriver + 4835592
+16  chromedriver                        0x0000000107a6ba87 chromedriver + 4835975
+17  chromedriver                        0x0000000107a7b00f chromedriver + 4898831
+18  libsystem_pthread.dylib             0x00007ff801a65259 _pthread_start + 125
+19  libsystem_pthread.dylib             0x00007ff801a60c7b thread_start + 15
+
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:33:15] "[35m[1mPOST /start_process HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:36:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:36:55] "[32mGET /static//style.css HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:36:56] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:36:56] "GET /static/icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:36:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:37:00] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:37:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:37:00] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:37:00] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:37:00] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:37:00] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:37:10] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:37:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:37:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:51] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:52] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:52] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:55] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:55] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:55] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:55] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:55] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:38:55] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:39:05] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:39:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:39:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:39:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:39:44] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:39:44] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:39:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:39:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:39:44] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:41:30] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:41:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:41:30] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:41:30] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:41:30] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:41:30] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:41:30] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:41:39] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:41:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:15] "POST /csv_download HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:30] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:30] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:36] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:36] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:36] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:36] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:36] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:36] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:38] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:39] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:39] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:39] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:39] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:47] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:47] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:47] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:43:47] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:44:07] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:44:09] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:44:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:45:15] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:45:15] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:45:15] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:45:17] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:45:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:45:17] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:45:22] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:45:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:45:22] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:45:22] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:45:22] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:49:05] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:49:05] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:49:05] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:49:05] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:49:06] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:49:06] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:50:06] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:50:06] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:50:06] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:50:06] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:50:06] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:50:06] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:50:06] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:50:29] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:50:29] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:50:51] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:50:51] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:51:17] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:51:17] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:51:44] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2023 23:51:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:12:59] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:00] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:04] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:04] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:04] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:04] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:04] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:04] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:35] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:35] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:42] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:42] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:42] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:42] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:42] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:42] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:42] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:55] "[35m[1mPOST /start_process HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:55] "GET /start_process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:55] "GET /start_process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:55] "GET /start_process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:13:55] "[36mGET /start_process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:04] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:04] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:07] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:07] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:07] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:07] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:07] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:07] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:07] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:07] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:07] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:07] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:35] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:16:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:20:47] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:20:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:20:47] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:20:51] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:20:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:20:51] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:20:51] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:20:51] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:20:51] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:20:58] "[35m[1mPOST /start_process HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:20:58] "[36mGET /start_process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:20:58] "[36mGET /start_process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:20:58] "[36mGET /start_process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:20:58] "[36mGET /start_process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:23:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:23:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:23:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:23:05] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:23:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:23:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:23:06] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:23:12] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:23:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:23:12] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:23:12] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:23:12] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:23:12] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:23:39] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:23:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:40:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:40:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:40:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:40:24] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:40:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:40:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:40:24] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:40:33] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:40:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:40:33] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:40:33] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:40:33] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:40:33] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:41:39] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:41:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:44:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:44:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:44:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:44:39] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:44:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:44:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:44:39] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:44:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:44:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:44:39] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:44:42] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:44:42] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:44:42] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:44:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:44:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:35] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:35] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:42] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:42] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:46] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:46] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:46:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:47:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:47:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:47:22] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:47:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:47:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:47:23] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:47:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:47:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:47:23] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:47:26] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:47:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:47:26] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:47:26] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:47:26] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 00:47:26] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:51:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:51:51] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:51:51] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:51:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:51:59] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:51:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:51:59] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:51:59] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:51:59] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:51:59] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:52:50] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:53:39] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:53:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:59:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:59:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:59:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:59:12] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:59:16] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:59:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:59:16] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:59:16] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:59:16] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:59:16] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 13:59:16] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:05:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:05:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:05:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:05:34] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:05:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:05:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:05:34] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:05:38] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:05:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:05:38] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:05:38] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:05:38] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:05:38] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:06] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:07] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:07] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:18] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:18] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:18] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:18] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:18] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:18] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:09:59] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:19:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:19:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:19:04] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:19:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:19:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:19:04] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:19:09] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:19:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:19:09] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:19:09] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:19:09] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:19:09] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:19:09] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:19:09] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:19:45] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:31] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:31] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:31] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:31] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:31] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:31] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:33] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:34] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:37] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:41] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:43] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:20:43] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:21:18] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:21:20] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:21:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:21:20] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:21:20] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:21:20] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:21:20] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:21:20] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:22:12] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:22:13] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:22:15] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:22:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:22:15] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:22:49] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:28:45] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:28:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:28:45] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:28:45] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:28:45] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:28:45] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:29:18] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:42:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:42:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:42:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:42:41] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:42:45] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:42:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:42:45] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:42:45] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:42:45] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:42:45] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:42:45] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:43:03] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:43:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:43:03] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:43:03] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:43:03] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:43:03] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:43:03] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:43:03] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:43:03] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:43:03] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:43:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:43:41] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:44:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:44:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:44:56] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:44:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:44:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:44:57] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:44:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:44:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:44:57] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:02] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:02] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:02] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:02] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:02] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:35] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:35] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:35] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:35] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:35] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:35] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:45:38] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:46:04] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:46:04] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:46:04] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:48:54] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:48:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:48:54] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:48:54] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:48:54] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:48:54] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:48:54] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:49:29] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:50:33] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:50:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:50:33] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:50:33] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:50:34] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:50:34] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:51:07] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:51:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:51:07] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:51:07] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:51:07] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:51:07] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:51:07] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:51:07] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:51:07] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:51:10] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:52:41] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:52:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:52:41] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:52:41] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:52:41] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:52:41] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:52:41] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:53:26] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:53:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:16] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:16] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:20] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:21] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:21] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:21] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:21] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:21] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 14:54:59] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-777-897
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-777-897
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:18:54] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:18:54] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:18:54] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:18:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:18:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:21:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:23:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:23:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:23:52] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:23:58] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:23:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:23:58] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:23:58] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:23:58] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:23:58] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:23:58] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:23:58] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:23:58] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:24:50] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 15:24:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:19:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:19:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:19:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:19:34] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:19:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:19:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:19:34] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:19:42] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:19:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:19:42] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:19:42] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:19:42] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:19:42] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:19:42] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:20:04] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:20:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:20:04] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:20:04] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:20:04] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:20:04] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:20:56] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:20:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:20:56] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:20:56] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:20:56] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:20:56] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:20:56] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:20:56] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:21:09] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:21:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:21:09] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:21:09] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:21:09] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:21:09] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:21:09] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:21:24] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:21:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:21:24] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:21:24] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:21:24] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:22:17] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:22:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:22:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:07] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:07] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:07] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:17] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:17] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:17] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:17] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:17] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:26:17] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:28:21] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:28:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:28:21] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:28:21] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:28:21] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:28:21] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:28:21] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:28:37] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:28:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:28:37] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:28:37] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:28:37] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:28:37] "[35m[1mGET /static/video2.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:30:14] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:30:14] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:30:14] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:30:14] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:30:14] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:30:14] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:30:14] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:31:07] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:31:07] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:31:07] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:31:07] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:31:07] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:31:07] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:31:07] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:31:12] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:31:12] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:32:15] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:32:15] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:32:15] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:32:15] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:32:15] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:32:15] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:32:15] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:06] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:06] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:06] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:06] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:06] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:06] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:06] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:43] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:56] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:56] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:33:56] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:34:01] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:34:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:34:01] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:34:01] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:34:01] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:34:01] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:34:01] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:35:50] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:35:50] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:35:50] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:35:50] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:35:50] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:35:50] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:35:50] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:02] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:02] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:02] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:02] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:02] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:02] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:02] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:42] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:42] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:42] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:42] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:42] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:42] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:42] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:42] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:42] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:37:42] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:38:22] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:38:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:48] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:48] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:48] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:49] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:54] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:54] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:54] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:54] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:54] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:39:54] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:40:31] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:40:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:08] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:08] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:12] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:12] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:12] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:12] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:12] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:12] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:47] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:41:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:44:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:44:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:44:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:44:14] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:44:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:44:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:44:15] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:44:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:44:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:44:15] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:44:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:44:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:44:15] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:45:13] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:45:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:45:13] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:45:13] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:45:13] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:45:13] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:45:52] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:45:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:48:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:48:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:48:33] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:48:33] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:48:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:48:49] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:48:49] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:49:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:49:08] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:49:09] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:49:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:49:20] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:49:20] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:49:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:49:43] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:49:43] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:50:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:50:00] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:50:00] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:50:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:50:50] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:50:50] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:50:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:50:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:50:51] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:50:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:50:55] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:50:55] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:02] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:02] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:08] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:08] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:17] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:17] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:27] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:27] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:34] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:34] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:45] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:51:45] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:56:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:56:21] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:56:21] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:57:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:57:40] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:57:40] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:19] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:19] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:26] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:27] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:31] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:31] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:44] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:44] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:53] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:58:53] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:59:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:59:03] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:59:03] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:59:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:59:10] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:59:10] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:59:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:59:16] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:59:16] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:59:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:59:23] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 16:59:23] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:13] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:13] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:22] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:22] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:43] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:43] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:55] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:55] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:55] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:55] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:55] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:00:55] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:01:18] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:01:18] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:01:33] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:01:33] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:02:33] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:02:33] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:02:33] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:02:33] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:02:33] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:02:33] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:02:52] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:02:52] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:03:00] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:03:00] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:03:21] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:03:21] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:03:33] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:03:33] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:03:42] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:03:42] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:03:53] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:03:53] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:04:42] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:05:00] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:05:01] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:05:01] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:05:01] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:05:12] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:05:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:07:11] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:07:11] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:09:09] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:09:09] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:10:38] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:10:38] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:12:10] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:12:10] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:14:13] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:14:13] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:18:27] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:18:27] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:20:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:20:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:20:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:20:43] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:20:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:20:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:20:44] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:20:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:20:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:20:46] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:21:11] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:21:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:21:59] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:21:59] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:00] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:08] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:08] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:09] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:13] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:13] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:13] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:13] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:13] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:13] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:52] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:52] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:52] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:52] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:53] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:53] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:55] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:22:58] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:23:04] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:23:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:23:38] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:24:03] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:24:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:24:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:24:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:24:27] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:24:34] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:24:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:24:34] "[35m[1mGET /static/video3.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:26:15] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:26:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:26:15] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:26:15] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:26:15] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:26:15] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:26:15] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:26:55] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:26:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:26:55] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:26:55] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:27:16] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:27:16] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:27:39] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:27:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/miyako/Desktop/testpy/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-500-198
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:36:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:36:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:36:09] "[36mGET /static/icon.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:36:18] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:36:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:36:19] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:36:19] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:36:19] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:36:19] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:36:26] "[35m[1mGET /static/video1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:37:22] "POST /start_process HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Apr/2023 17:37:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

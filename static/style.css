@@ -2,17 +2,20 @@ header {
   background-color: #fff;
 }
 
+header h1 {
+  text-decoration: none; /* 下線を非表示にする */
+}
+
 .upload-form {
   display: block;
   position: fixed;
-  top: 50%;
-  left: calc(50% + 300px);
+  margin-left: 985px;
+  margin-top: 325px; /* 要素を中央に配置するためにmarginをautoに設定 */
   transform: translate(-50%, -50%);
   padding: 20px;
   border-radius: 40px;
-  margin: 10px;
-  width: 500px; /* 幅を500pxに変更 */
-  height: 400px; /* 高さを400pxに変更 */
+  width: 500px;
+  height: 400px;
   text-align: center;
   box-shadow: 0 15px 20px -5px rgba(0, 0, 0, 0.1), 0 -15px 20px -5px rgba(0, 0, 0, 0.1), 15px 0 20px -5px rgba(0, 0, 0, 0.1), -15px 0 20px -5px rgba(0, 0, 0, 0.1);
   background-image: url('/static/icon.png');
@@ -43,6 +46,11 @@ header {
   transition: background-color 0.3s ease;
 }
 
+.custom-file-upload:active {
+  background-color: #ff6a00;
+  text-shadow: 0 0 0.5px black; /* フォントの外枠を指定 */
+}
+
 .text-container {
   position: absolute;
   top: calc(50% + 105px); /* テキストを100px下に移動 */
@@ -59,14 +67,6 @@ header {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-}
-
-.description-wrapper {
-  margin-bottom: 10px;
-}
-
-.description {
-  margin: 0;
 }
 
 .start-wrapper {
@@ -93,6 +93,8 @@ header {
 .my-video {
   display: inline-block;
   vertical-align: middle;
+  margin-left: 40px;
+  margin-top: -60px;
 }
 
 button {
@@ -129,7 +131,8 @@ button:hover {
 
 .description-wrapper {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .description {
@@ -138,6 +141,16 @@ button:hover {
   height: 130px;
   display: flex;
   align-items: flex-end;
+  margin: 30px 0 0 40px;
+  font-size: 24px;
+  color: rgb(71, 68, 68);
+}
+
+.start-message {
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 24px;
+  color: rgb(71, 68, 68);
 }
 
 .start {
@@ -155,10 +168,16 @@ button:hover {
   padding: 0 2rem;
   cursor: pointer;
   transition: background-color 0.2s ease-out;
+  margin-left: 40px;
 }
 
 .start:hover {
   background-color: rgb(255, 153, 0);
+}
+
+.start:active {
+  background-color: #ff6a00;
+  text-shadow: 0 0 0.5px black; /* フォントの外枠を指定 */
 }
 
 input[type="submit"] {
@@ -171,7 +190,9 @@ input[type="submit"] {
 }
 
 .table-wrapper {
-  margin-top: 80px;
+  margin-top: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .table-wrapper form {
@@ -185,20 +206,30 @@ input[type="submit"] {
   height: 80vh;
   font-size: 48px;
   color: #464646;
-  margin-left: 20px;
-  margin-top: 50px; /* 上に50px分ずらす */
+  margin-left: 95px;
+  margin-top: 90px; /* 上に50px分ずらす */
+  line-height: 1.8;
 }
 
+.table-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+}
 
-.center {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 80vh;
-  font-size: 48px;
-  color: #464646;
-  margin-left: 20px;
-  margin-top: 50px;
+.table-wrapper th,
+.table-wrapper td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.table-wrapper th {
+  background-color: #f2f2f2;
+}
+
+.table-wrapper th:first-child,
+.table-wrapper td:first-child {
+  text-align: left; /* リンク列を左寄せにする */
 }
 
 @media (max-width: 768px) {
